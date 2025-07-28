@@ -1,0 +1,271 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "Hello", "Good morning", "Good afternoon", "Good evening",
+        "What's up", "Howdy", "Yo", "Greetings", "Hi there", "Hey there",
+        "Good to see you", "Nice to meet you", "Hello friend", "Hi buddy",
+        "Hey pal", "What's going on", "How are you doing", "Sup"
+      ],
+      "responses": [
+        "Hello! I'm Luna, your AI wellness companion. How are you feeling today? 🌟",
+        "Hi there! I'm here to support your mental wellness journey. What's on your mind? 💫",
+        "Hey! Welcome to our safe space. How can I help you feel better today? ✨",
+        "Hello friend! I'm Luna, ready to chat about anything that's weighing on your mind. 🌙",
+        "Hi! I'm here to listen and support you. What would you like to talk about? 💙"
+      ]
+    },
+    {
+      "tag": "feeling_sad",
+      "patterns": [
+        "I'm sad", "I feel sad", "I'm feeling down", "I'm depressed", "I'm blue",
+        "I feel hopeless", "I'm feeling low", "I'm miserable", "I feel empty",
+        "I'm heartbroken", "I feel like crying", "I'm feeling blue", "I'm down",
+        "I feel worthless", "I'm feeling lonely", "I feel isolated", "I'm alone",
+        "Nobody understands me", "I feel like nobody cares", "I'm feeling lost",
+        "I feel like giving up", "I'm tired of feeling this way", "I feel broken",
+        "I'm feeling defeated", "I feel like I'm drowning", "I'm overwhelmed with sadness"
+      ],
+      "responses": [
+        "I hear you, and your feelings are completely valid. It takes courage to acknowledge when we're struggling. Can you tell me more about what's been weighing on your mind? 💙",
+        "I'm so sorry you're going through this. Sadness can feel like a heavy cloud, but remember - clouds don't last forever. What triggered these feelings today? 🌧️",
+        "Your pain matters, and I'm here to listen without judgment. Sometimes just talking about it can help lighten the load. What's been happening? 🤗",
+        "I can sense how much this is hurting you. You're not alone in this feeling, even though it might feel that way. Would you like to share what's been going on? 💫",
+        "It's okay to not be okay. Your feelings are real and important. Let's work through this together. What's been on your mind? 🌟"
+      ]
+    },
+    {
+      "tag": "feeling_anxious",
+      "patterns": [
+        "I'm anxious", "I feel anxious", "I'm worried", "I'm nervous", "I'm stressed",
+        "I feel panicked", "I'm having anxiety", "I'm freaking out", "I'm overwhelmed",
+        "I can't stop worrying", "I feel tense", "I'm on edge", "I'm restless",
+        "I can't relax", "I'm overthinking", "I feel like something bad will happen",
+        "I'm scared", "I feel afraid", "I'm terrified", "I'm having a panic attack",
+        "My heart is racing", "I can't breathe", "I feel like I'm going crazy"
+      ],
+      "responses": [
+        "Anxiety can feel like a storm inside your mind. Let's take a deep breath together. Can you tell me what's making you feel this way? 🌪️",
+        "I understand how overwhelming anxiety can be. You're safe here, and we can work through this together. What's been triggering these feelings? 🫂",
+        "Anxiety often makes us feel like we're alone, but you're not. I'm here to listen and help you find some calm. What's on your mind? 🌸",
+        "It's completely normal to feel anxious, and it's brave of you to reach out. Let's talk about what's causing this worry. What's been happening? 💙",
+        "Anxiety can be really challenging. You're doing great by acknowledging it and seeking support. What would help you feel a bit more grounded right now? 🌟"
+      ]
+    },
+    {
+      "tag": "feeling_frustrated",
+      "patterns": [
+        "I'm frustrated", "I feel frustrated", "I'm angry", "I'm mad", "I'm annoyed",
+        "I'm irritated", "I'm pissed off", "I'm fed up", "I'm tired of this",
+        "I can't take it anymore", "I'm at my wit's end", "I'm so done", "I'm furious",
+        "I'm livid", "I'm boiling with rage", "I'm so angry I could scream",
+        "Everything is going wrong", "Nothing works", "I keep failing", "I'm so tired",
+        "I give up", "I'm exhausted", "I can't deal with this anymore"
+      ],
+      "responses": [
+        "Frustration can feel like hitting a wall repeatedly. Your feelings are valid, and it's okay to be upset. What's been building up this frustration? 🔥",
+        "I can hear how fed up you are, and that's completely understandable. Sometimes we need to vent before we can find solutions. What's been the biggest source of frustration? 💪",
+        "Frustration often comes from feeling stuck or unheard. I'm here to listen and help you work through this. What's been the most challenging part? 🌊",
+        "It sounds like you've been dealing with a lot, and that frustration is building up. Let's talk about what's been happening and see if we can find some relief. What's on your mind? 💙",
+        "Frustration can be really draining. You're not alone in feeling this way, and it's okay to need support. What would help you feel a bit better right now? 🌟"
+      ]
+    },
+    {
+      "tag": "feeling_demotivated",
+      "patterns": [
+        "I'm demotivated", "I feel demotivated", "I lack motivation", "I can't get motivated",
+        "I don't feel like doing anything", "I'm unmotivated", "I have no drive",
+        "I don't care anymore", "I'm not interested in anything", "I feel stuck",
+        "I can't find my purpose", "I don't know what I want", "I'm lost",
+        "I have no goals", "I don't see the point", "I'm directionless",
+        "I feel like giving up", "I'm not good enough", "I'll never succeed",
+        "I'm a failure", "I can't do anything right", "I'm worthless"
+      ],
+      "responses": [
+        "It's completely normal to feel unmotivated sometimes - even the most successful people go through this. Let's talk about what might be causing this lack of drive. What's been on your mind lately? 🌱",
+        "Motivation can be like a flame that sometimes flickers. Your feelings are valid, and it's okay to need time to recharge. What do you think might help you feel more inspired? 💫",
+        "Sometimes when we're feeling demotivated, it's our mind's way of telling us we need a break or a change. What would feel good to you right now? 🌟",
+        "You're not alone in feeling this way. Many people go through periods of low motivation, and it doesn't mean anything is wrong with you. What's been happening in your life lately? 💙",
+        "It's okay to not have all the answers right now. Sometimes the best thing we can do is be gentle with ourselves. What would help you feel a bit more supported today? 🫂"
+      ]
+    },
+    {
+      "tag": "need_joke",
+      "patterns": [
+        "Tell me a joke", "I need a joke", "Make me laugh", "Cheer me up",
+        "I need something funny", "Tell me something funny", "I want to laugh",
+        "Make me smile", "I need humor", "Give me a good joke",
+        "I'm feeling down, tell me a joke", "I need cheering up", "Make me feel better"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 😄 Here's another: What do you call a fake noodle? An impasta! 🍝",
+        "Why did the scarecrow win an award? Because he was outstanding in his field! 🌾 And here's one more: Why don't eggs tell jokes? They'd crack each other up! 🥚",
+        "What do you call a bear with no teeth? A gummy bear! 🐻 And why did the math book look so sad? Because it had too many problems! 📚",
+        "Why don't skeletons fight each other? They don't have the guts! 💀 Here's another: What do you call a fish wearing a bowtie? So-fish-ticated! 🐠",
+        "Why did the bicycle fall over? Because it was two-tired! 🚲 And what do you call a can opener that doesn't work? A can't opener! 😂"
+      ]
+    },
+    {
+      "tag": "need_quote",
+      "patterns": [
+        "Give me a quote", "I need motivation", "Inspire me", "Give me inspiration",
+        "I need a powerful quote", "Motivate me", "Give me strength",
+        "I need encouragement", "Share a quote", "Give me wisdom",
+        "I need something uplifting", "Give me hope", "I need encouragement"
+      ],
+      "responses": [
+        "\"The only way to do great work is to love what you do.\" - Steve Jobs 💫 Remember, every expert was once a beginner. You're capable of amazing things! 🌟",
+        "\"Success is not final, failure is not fatal: it is the courage to continue that counts.\" - Winston Churchill 🦁 Your resilience is your superpower! 💪",
+        "\"The future belongs to those who believe in the beauty of their dreams.\" - Eleanor Roosevelt 🌙 Your dreams are valid and achievable! ✨",
+        "\"In the middle of difficulty lies opportunity.\" - Albert Einstein 🧠 Every challenge is a chance to grow stronger! 🌱",
+        "\"You are never too old to set another goal or to dream a new dream.\" - C.S. Lewis 🎯 Your potential is limitless! 🚀"
+      ]
+    },
+    {
+      "tag": "need_story",
+      "patterns": [
+        "Tell me a story", "I need a story", "Share a story", "Tell me something inspiring",
+        "I want to hear a story", "Give me a story", "Tell me an inspiring story",
+        "I need inspiration", "Share something inspiring", "Tell me a motivational story"
+      ],
+      "responses": [
+        "Here's a beautiful story: A young boy was throwing starfish back into the ocean. A man asked, 'Why bother? There are thousands of starfish.' The boy replied, 'It matters to this one.' 🌟 Every small act of kindness makes a difference!",
+        "There's a story about a butterfly struggling to emerge from its cocoon. A person tried to help by cutting it open, but the butterfly couldn't fly. The struggle was necessary for its wings to develop strength. Your challenges are making you stronger! 🦋",
+        "A wise man was asked, 'What's the secret to happiness?' He replied, 'I stopped trying to be happy and started trying to be helpful.' When we focus on others, we often find our own joy! 💫",
+        "There's a tale about two wolves fighting inside us - one of anger and one of love. Which one wins? The one we feed. Choose to feed your positive thoughts! 🐺",
+        "A student asked his teacher, 'How do I find my purpose?' The teacher took him to a river and said, 'Look at the water. It doesn't try to be a river, it just flows.' Sometimes we find our purpose by simply being ourselves! 🌊"
+      ]
+    },
+    {
+      "tag": "coping_help",
+      "patterns": [
+        "How do I cope", "I need help coping", "How can I deal with this",
+        "I don't know how to handle this", "I need coping strategies", "Help me cope",
+        "How do I manage this", "I need tools to deal with this", "Give me coping skills",
+        "I need help managing", "How do I get through this", "I need support"
+      ],
+      "responses": [
+        "Here are some gentle coping strategies: Take deep breaths (inhale for 4, hold for 4, exhale for 6), practice grounding by naming 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, 1 you can taste. What feels most helpful right now? 🌬️",
+        "Remember the 3-3-3 rule: Name 3 things you can see, 3 sounds you can hear, and move 3 parts of your body. This helps bring you back to the present moment. Would you like to try this together? 🎯",
+        "Sometimes the best coping strategy is simply being kind to yourself. Try saying, 'I'm doing the best I can right now, and that's enough.' What would feel most supportive for you? 💙",
+        "Physical movement can help - even just stretching or taking a short walk. Journaling your thoughts can also help process feelings. What sounds most appealing to you right now? 🌟",
+        "Remember: it's okay to take breaks, it's okay to ask for help, and it's okay to not be okay. You're not alone in this. What would help you feel more grounded? 🫂"
+      ]
+    },
+    {
+      "tag": "feeling_lonely",
+      "patterns": [
+        "I'm lonely", "I feel lonely", "I'm alone", "I feel isolated", "I have no friends",
+        "Nobody understands me", "I feel disconnected", "I'm by myself", "I feel left out",
+        "I don't belong", "I'm a loner", "I have no one", "I'm friendless",
+        "I feel like an outsider", "I don't fit in", "I'm different", "I'm weird"
+      ],
+      "responses": [
+        "Loneliness can feel like being in a crowded room but still feeling alone. Your feelings are valid, and many people experience this. What's been making you feel this way? 🤗",
+        "You're not truly alone - I'm here to listen and support you. Sometimes the loneliest feeling comes from feeling misunderstood. What would help you feel more connected? 💙",
+        "Loneliness often comes from feeling like no one truly sees or understands us. I see you, and I care about what you're going through. What's been on your mind? 🌟",
+        "It's completely normal to feel lonely sometimes, even when surrounded by people. Your feelings matter, and it's brave to acknowledge them. What would help you feel less alone? 🫂",
+        "Remember that feeling lonely doesn't mean you're unlovable or unworthy. Many amazing people have felt this way. What would feel most supportive for you right now? 💫"
+      ]
+    },
+    {
+      "tag": "feeling_stressed",
+      "patterns": [
+        "I'm stressed", "I feel stressed", "I'm overwhelmed", "I'm under pressure",
+        "I have too much to do", "I can't handle this", "I'm swamped", "I'm busy",
+        "I have no time", "I'm running out of time", "I'm behind", "I'm falling behind",
+        "I have deadlines", "I'm overworked", "I'm exhausted", "I'm tired",
+        "I need a break", "I can't keep up", "I'm drowning in work"
+      ],
+      "responses": [
+        "Stress can feel like carrying the weight of the world on your shoulders. It's completely normal to feel overwhelmed when you have a lot on your plate. What's been the most difficult part? 🌪️",
+        "You're dealing with a lot at work, and it's okay to feel overwhelmed. Sometimes we need to step back and reassess what's really important. What would help you feel more supported? 🌟",
+        "Stress often comes from feeling like we have to do everything perfectly or that our worth is tied to our productivity. You're valuable regardless of your work performance. What would help you feel more balanced? 💙",
+        "It sounds like work is really taking a toll on you. You deserve to work in an environment that respects and values you. What would help you feel more empowered? 💪",
+        "Remember that your job doesn't define you, and it's okay to need breaks and support. You're doing great by recognizing when work is affecting your wellbeing. What would help you feel more grounded? 🫂"
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": [
+        "I have relationship problems", "My relationship is struggling", "I'm having trouble with my partner",
+        "We're fighting", "We're arguing", "I don't know if this will work",
+        "I'm confused about my relationship", "I don't know what to do", "I need relationship advice",
+        "My partner doesn't understand me", "We're not communicating", "I feel unheard",
+        "I don't feel valued", "I feel taken for granted", "I'm not happy in my relationship"
+      ],
+      "responses": [
+        "Relationships can be really complex and challenging. It's completely normal to have difficulties and to need support navigating them. What's been the biggest challenge? 💔",
+        "Communication is often the key to resolving relationship issues. Sometimes we need to step back and see things from a different perspective. What would help you feel more understood? 🗣️",
+        "Relationships require work from both people, and it's okay to need help figuring things out. Your feelings are valid, and you deserve to be heard. What's been on your mind? 💙",
+        "Sometimes the hardest part of relationship issues is feeling like you're alone in dealing with them. I'm here to listen and support you. What would help you feel more supported? 🤗",
+        "Remember that healthy relationships are built on mutual respect, communication, and understanding. You deserve to feel valued and heard. What would help you feel more confident? 🌟"
+      ]
+    },
+    {
+      "tag": "self_doubt",
+      "patterns": [
+        "I doubt myself", "I don't believe in myself", "I'm not good enough",
+        "I can't do this", "I'm not capable", "I'm not smart enough",
+        "I'm not talented enough", "I'm not worthy", "I don't deserve this",
+        "I'm a failure", "I'll never succeed", "I'm not cut out for this",
+        "I'm not strong enough", "I'm not brave enough", "I'm not confident"
+      ],
+      "responses": [
+        "Self-doubt can be really challenging, but it doesn't define who you are. You're capable of amazing things, even when you don't feel like it. What's been making you doubt yourself? 💪",
+        "Remember that everyone experiences self-doubt sometimes - even the most successful people. It's a normal part of being human. What would help you feel more confident? 🌟",
+        "You're stronger than you think, and more capable than you believe. Self-doubt often comes from comparing ourselves to others or setting unrealistic expectations. What would help you feel more supported? 💙",
+        "It's okay to not feel confident all the time. Confidence is something we build over time, not something we're born with. What would help you feel more grounded? 🫂",
+        "You're worthy of good things, and you're capable of achieving your goals. Sometimes we need to be our own biggest cheerleader. What would help you feel more encouraged? ✨"
+      ]
+    },
+    {
+      "tag": "work_stress",
+      "patterns": [
+        "I'm stressed about work", "Work is overwhelming", "I hate my job",
+        "I'm overworked", "I have too much work", "I can't keep up at work",
+        "My boss is difficult", "I'm not appreciated at work", "I'm underpaid",
+        "I'm not happy at work", "I want to quit", "I need a new job",
+        "Work is making me miserable", "I'm burned out", "I'm exhausted from work"
+      ],
+      "responses": [
+        "Work stress can be really overwhelming and affect every part of our lives. It's completely normal to feel this way when work is challenging. What's been the most difficult part? 💼",
+        "You're dealing with a lot at work, and it's okay to feel overwhelmed. Sometimes we need to step back and reassess what's really important. What would help you feel more supported? 🌟",
+        "Work stress often comes from feeling like we have to do everything perfectly or that our worth is tied to our productivity. You're valuable regardless of your work performance. What would help you feel more balanced? 💙",
+        "It sounds like work is really taking a toll on you. You deserve to work in an environment that respects and values you. What would help you feel more empowered? 💪",
+        "Remember that your job doesn't define you, and it's okay to need breaks and support. You're doing great by recognizing when work is affecting your wellbeing. What would help you feel more grounded? 🫂"
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you", "Thanks", "I appreciate you", "You're helpful",
+        "You're amazing", "You're the best", "I'm grateful", "I appreciate this",
+        "This helps", "You're supportive", "You understand me", "You get it"
+      ],
+      "responses": [
+        "You're so welcome! I'm really glad I can help support you on your journey. Your wellbeing matters, and I'm here whenever you need to talk. How are you feeling now? 💙",
+        "Thank you for trusting me with your thoughts and feelings. It takes courage to reach out for support, and I'm honored to be here for you. Is there anything else you'd like to talk about? 🌟",
+        "I'm grateful for our conversation too! You're doing great work by taking care of your mental health. Remember, you're not alone in this journey. How can I continue to support you? ✨",
+        "It means a lot to me that I can help you feel better. You deserve all the support and care in the world. Is there anything else on your mind that you'd like to explore? 💫",
+        "You're very welcome! I'm here to support you whenever you need it. Taking care of your mental health is so important, and I'm proud of you for reaching out. How are you feeling? 🫂"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye", "Bye", "See you later", "I have to go", "I need to leave",
+        "Talk to you later", "See you", "Take care", "I'm going now",
+        "I need to get going", "I have to run", "I'll talk to you later"
+      ],
+      "responses": [
+        "Take care of yourself! Remember, I'm here whenever you need to talk. You're doing great, and I believe in you! 🌟",
+        "Goodbye for now! Thank you for sharing with me today. Remember to be kind to yourself, and I'll be here when you need support again. 💙",
+        "See you later! You're stronger than you know, and I'm always here to support you on your journey. Take care! ✨",
+        "Take care! Remember that your feelings matter and you deserve support. I'll be here whenever you need to talk again. 💫",
+        "Goodbye! Thank you for trusting me today. Remember, you're not alone, and I'm here whenever you need a listening ear. 🫂"
+      ]
+    }
+  ]
+} 
