@@ -1,0 +1,8 @@
+transformers>=4.41.0
+accelerate
+peft
+bitsandbytes
+datasets
+gradio
+sentencepiece
+protobuf<5
